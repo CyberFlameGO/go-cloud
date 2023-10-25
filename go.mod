@@ -17,15 +17,13 @@ module gocloud.dev
 go 1.12
 
 require (
-	cloud.google.com/go/compute v1.5.0
-	cloud.google.com/go/firestore v1.6.1
-	cloud.google.com/go/iam v0.3.0
-	cloud.google.com/go/kms v1.4.0
-	cloud.google.com/go/monitoring v1.4.0 // indirect
-	cloud.google.com/go/pubsub v1.19.0
-	cloud.google.com/go/secretmanager v1.3.0
-	cloud.google.com/go/storage v1.21.0
-	cloud.google.com/go/trace v1.2.0 // indirect
+	cloud.google.com/go/compute/metadata v0.2.3
+	cloud.google.com/go/firestore v1.9.0
+	cloud.google.com/go/iam v0.13.0
+	cloud.google.com/go/kms v1.10.1
+	cloud.google.com/go/pubsub v1.30.0
+	cloud.google.com/go/secretmanager v1.10.0
+	cloud.google.com/go/storage v1.29.0
 	contrib.go.opencensus.io/exporter/aws v0.0.0-20200617204711-c478e41e60e9
 	contrib.go.opencensus.io/exporter/stackdriver v0.13.10
 	contrib.go.opencensus.io/integrations/ocsql v0.1.7
@@ -55,28 +53,25 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/golang-jwt/jwt/v4 v4.4.1 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/google/go-cmp v0.5.7
+	github.com/google/go-cmp v0.5.9
 	github.com/google/go-replayers/grpcreplay v1.1.0
 	github.com/google/go-replayers/httpreplay v1.1.1
 	github.com/google/martian v2.1.1-0.20190517191504-25dcb96d9e51+incompatible // indirect
 	github.com/google/uuid v1.3.0
 	github.com/google/wire v0.5.0
-	github.com/googleapis/gax-go/v2 v2.2.0
-	github.com/klauspost/compress v1.15.1 // indirect
+	github.com/googleapis/gax-go/v2 v2.7.1
 	github.com/lib/pq v1.10.4
 	github.com/mitchellh/mapstructure v1.4.3 // indirect
-	go.opencensus.io v0.23.0
+	go.opencensus.io v0.24.0
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	golang.org/x/crypto v0.0.0-20220331220935-ae2d96664a29
-	golang.org/x/mod v0.5.0 // indirect
-	golang.org/x/net v0.0.0-20220401154927-543a649e0bdd
-	golang.org/x/oauth2 v0.0.0-20220309155454-6242fa91716a
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20220330033206-e17cdc41300f // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
-	google.golang.org/api v0.74.0
-	google.golang.org/genproto v0.0.0-20220401170504-314d38edb7de
-	google.golang.org/grpc v1.45.0
-	google.golang.org/protobuf v1.28.0
+	golang.org/x/net v0.9.0
+	golang.org/x/oauth2 v0.7.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
+	google.golang.org/api v0.114.0
+	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
+	google.golang.org/grpc v1.56.3
+	google.golang.org/protobuf v1.30.0
 )
